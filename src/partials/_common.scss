@@ -4,6 +4,10 @@
   padding: 0px;
 }
 
+body {
+  background-color: $bodyColor;
+}
+
 
 .wrapper_80 {
   width: 70%;
@@ -11,6 +15,8 @@
 }
 
 
+
+
 @mixin borderTest {
-  border: 1px solid black;
+  border: 1px solid white;
 }
