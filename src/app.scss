@@ -1,3 +1,10 @@
-body {
-  background-color: tomato;
-}
+// IMPORTO FILE VARIABILI
+@import 'partials/_variables';
+// IMPORTO FILE COMMON
+@import 'partials/_common';
+// IMPORTO FILE HEADER
+@import 'partials/_header';
+// IMPORTO FILE MAIN
+@import 'partials/_main';
+// IMPORTO FILE FOOTER
+@import 'partials/_footer';
