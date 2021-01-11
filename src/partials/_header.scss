@@ -1,0 +1,19 @@
+.header_top {
+  width: 100%;
+  height: 150px;
+}
+.header_first {
+  width: 100%;
+  height: 50%;
+  @include borderTest;
+}
+.header_second {
+  width: 100%;
+  height: 50%;
+  @include borderTest;
+}
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  @include borderTest;
+}

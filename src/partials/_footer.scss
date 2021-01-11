@@ -1,0 +1,12 @@
+footer {
+  width: 100%;
+  height: 500px;
+  .footer_top {
+    height: 80%;
+    @include borderTest;
+  }
+  .footer_bot {
+    height: 20%;
+    @include borderTest;
+  }
+}
