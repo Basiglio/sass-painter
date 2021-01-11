@@ -1,7 +1,13 @@
 main {
   width: 100%;
+  @include borderTest;
   .section {
     height: 500px;
     @include borderTest;
+    .section_element {
+      @include wrapper_80;
+      @include borderTest;
+      height: 100%;
+    }
   }
 }

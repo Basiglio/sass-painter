@@ -12,15 +12,7 @@ body {
   width: 100%;
 }
 
-
-.wrapper_80 {
+@mixin wrapper_80 {
   width: 70%;
   margin: 0 auto;
-}
-
-
-
-
-@mixin borderTest {
-  border: 1px solid white;
 }

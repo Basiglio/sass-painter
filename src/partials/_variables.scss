@@ -4,3 +4,8 @@ $backgroundJumbotron: "https://www.painterartist.com/static/ptr/product_content/
 
 
 $brandColor: #009CFF;
+
+
+@mixin borderTest {
+  border: 1px solid white;
+}
