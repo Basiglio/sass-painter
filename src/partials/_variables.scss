@@ -9,3 +9,8 @@ $brandColor: #009CFF;
 @mixin borderTest {
   border: 1px solid white;
 }
+
+@mixin wrapper_80 {
+  width: 70%;
+  margin: 0 auto;
+}

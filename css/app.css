@@ -12,6 +12,18 @@ body {
   width: 100%;
 }
 
+li {
+  list-style: none;
+}
+
+.btn {
+  width: 200px;
+  height: 60px;
+  border: 1px solid white;
+  background-color: grey;
+  padding: 5px;
+}
+
 header .header_top {
   width: 100%;
   height: 100px;
@@ -63,7 +75,6 @@ header .header_second ul {
 header .header_second ul li {
   padding: 0 25px;
   display: inline-block;
-  list-style: none;
 }
 header .header_second ul li i {
   color: grey;
@@ -78,7 +89,7 @@ header .jumbotron {
   width: 100%;
   height: 400px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
-  background-position: left;
+  background-position: right;
   background-size: cover;
 }
 header .jumbotron .jumbo_element {
@@ -90,13 +101,28 @@ header .jumbotron .jumbo_element .jumbo_paragraph {
   width: 40%;
   height: 100%;
   float: right;
+  line-height: 40px;
   border: 1px solid white;
+  padding: 30px;
+  color: white;
+}
+header .jumbotron .jumbo_element .jumbo_paragraph ul li i {
+  color: grey;
+  padding-right: 10px;
 }
 header .jumbotron .jumbo_element .jumbo_price {
   width: 40%;
   height: 100%;
   float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid white;
+}
+header .jumbotron .jumbo_element .jumbo_price .container_price {
+  width: 90%;
+  height: 90%;
+  background-color: black;
 }
 header .navbar {
   background-color: #E6E6E6;
